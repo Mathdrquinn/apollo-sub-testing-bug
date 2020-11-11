@@ -31,7 +31,7 @@ describe("thing", () => {
     });
 
     test("should show the updated purchase total", () => {
-      expect(wrapper.text()).toBe("total: $2");
+      expect(wrapper.text()).toBe("total: $1");
     });
   });
 });
