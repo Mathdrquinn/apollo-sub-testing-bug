@@ -31,6 +31,7 @@ export const TheComponent = ({ user }: TheComponentProps) => {
       getUser();
     },
   });
-
-  return <pre>{JSON.stringify(user)}</pre>;
+  console.log("render");
+  console.log(latestPurchases);
+  return <pre>total: ${total}</pre>;
 };
